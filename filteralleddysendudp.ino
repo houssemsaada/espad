@@ -15,15 +15,15 @@
 #include "string"  
 // WiFi network name and password:
 const char * networkName = "Scheidt & Bachmann";
-const char * networkPswd = "GusT_AC3ss%SbM";
+const char * networkPswd = "pswd";
 //const char * networkName = "BadKarma";
 //const char * networkPswd = "houssem1234";
 float mesure ;
 double distance ; 
 //IP address to send UDP data to:
-const char * udpAddress = "192.168.162.125";
+const char * udpAddress = "udp1";
 const int udpPort = 5015;
-const char * udpAddressm = "192.168.162.66";
+const char * udpAddressm = "udp2";
 const int udpPortm = 5015;
 boolean connected = false;
 BLEScan* pBLEScan;
